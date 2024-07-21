@@ -3,7 +3,6 @@ from tkinter import ttk, messagebox
 import json
 import os
 
-TODO_FILE = 'todo.json'
 
 def load_tasks():
     if os.path.exists(TODO_FILE):
